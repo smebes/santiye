@@ -236,7 +236,7 @@ class _FolderContentsPageState extends State<FolderContentsPage> {
                               userRole: currentRole,
                               onView: () {
                                 if (Permissions.canView(file, currentRole)) {
-                                  _showFileActions(file);
+                                  _viewFile(file);
                                 }
                               },
                               onDownload: () {

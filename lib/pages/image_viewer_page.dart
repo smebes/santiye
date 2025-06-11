@@ -11,7 +11,7 @@ class ImageViewerPage extends StatelessWidget {
       body:
           url == null
               ? const Center(child: Text('Görsel bulunamadı'))
-              : InteractiveViewer(child: Center(child: Image.network(url!))),
+              : InteractiveViewer(child: Center(child: Image.network(Uri.encodeFull(url!)))),
     );
   }
 }
