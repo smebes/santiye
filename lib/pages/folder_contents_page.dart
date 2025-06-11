@@ -6,6 +6,8 @@ import '../utils/permissions.dart';
 import '../widgets/file_card.dart';
 import '../widgets/folder_card.dart';
 import 'package:provider/provider.dart';
+import '../pages/pdf_viewer_page.dart';
+import '../pages/image_viewer_page.dart';
 
 class FolderContentsPage extends StatefulWidget {
   final String folderPath;
@@ -199,7 +201,7 @@ class _FolderContentsPageState extends State<FolderContentsPage> {
                       child: GridView.builder(
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           crossAxisCount: isMobile ? 2 : (isTablet ? 3 : 4),
-                          childAspectRatio: 2.5,
+                          childAspectRatio: 2.0,
                           crossAxisSpacing: 16,
                           mainAxisSpacing: 16,
                         ),
@@ -316,9 +318,15 @@ class _FolderContentsPageState extends State<FolderContentsPage> {
   }
 
   void _viewFile(FileEntry file) {
-    ScaffoldMessenger.of(
-      context,
-    ).showSnackBar(SnackBar(content: Text('${file.name} görüntüleniyor...'), backgroundColor: Colors.blue));
+    if (file.extension == 'pdf') {
+      Navigator.of(context).push(MaterialPageRoute(builder: (context) => PdfViewerPage(url: file.url)));
+    } else if (file.extension == 'jpg' || file.extension == 'jpeg' || file.extension == 'png') {
+      Navigator.of(context).push(MaterialPageRoute(builder: (context) => ImageViewerPage(url: file.url)));
+    } else {
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text('${file.name} görüntüleniyor...'), backgroundColor: Colors.blue));
+    }
   }
 
   void _downloadFile(FileEntry file) {

@@ -158,6 +158,9 @@ class MockDataService {
             path: '/hakedisler/1_nolu_hakedis.pdf',
             size: '11.4 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/1_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '2 NOLU HAKEDİŞ.pdf',
@@ -169,6 +172,9 @@ class MockDataService {
             path: '/hakedisler/2_nolu_hakedis.pdf',
             size: '11.4 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/2_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '3 NOLU HAKEDİŞ.pdf',
@@ -180,6 +186,9 @@ class MockDataService {
             path: '/hakedisler/3_nolu_hakedis.pdf',
             size: '17.9 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/3_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '4 NOLU HAKEDİŞ.pdf',
@@ -191,6 +200,9 @@ class MockDataService {
             path: '/hakedisler/4_nolu_hakedis.pdf',
             size: '15.2 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/4_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '5 NOLU HAKEDİŞ.pdf',
@@ -202,6 +214,9 @@ class MockDataService {
             path: '/hakedisler/5_nolu_hakedis.pdf',
             size: '14.5 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/5_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '6 NOLU HAKEDİŞ.pdf',
@@ -213,6 +228,9 @@ class MockDataService {
             path: '/hakedisler/6_nolu_hakedis.pdf',
             size: '14.0 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/6_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '7 NOLU HAKEDİŞ.pdf',
@@ -224,6 +242,9 @@ class MockDataService {
             path: '/hakedisler/7_nolu_hakedis.pdf',
             size: '18.3 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/7_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '8 NOLU HAKEDİŞ.pdf',
@@ -235,6 +256,9 @@ class MockDataService {
             path: '/hakedisler/8_nolu_hakedis.pdf',
             size: '16.3 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/8_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '9 NOLU HAKEDİŞ.pdf',
@@ -246,6 +270,9 @@ class MockDataService {
             path: '/hakedisler/9_nolu_hakedis.pdf',
             size: '17.6 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/9_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '10 NOLU HAKEDİŞ.pdf',
@@ -257,6 +284,9 @@ class MockDataService {
             path: '/hakedisler/10_nolu_hakedis.pdf',
             size: '16.5 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/10_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '11 NOLU HAKEDİŞ.pdf',
@@ -268,6 +298,9 @@ class MockDataService {
             path: '/hakedisler/11_nolu_hakedis.pdf',
             size: '16.1 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/11_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '12 NOLU HAKEDİŞ.pdf',
@@ -279,6 +312,9 @@ class MockDataService {
             path: '/hakedisler/12_nolu_hakedis.pdf',
             size: '19.4 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/12_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '13 NOLU HAKEDİŞ.pdf',
@@ -290,6 +326,9 @@ class MockDataService {
             path: '/hakedisler/13_nolu_hakedis.pdf',
             size: '18.9 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/13_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '14 NOLU HAKEDİŞ.pdf',
@@ -301,6 +340,9 @@ class MockDataService {
             path: '/hakedisler/14_nolu_hakedis.pdf',
             size: '17.2 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/14_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '15 NOLU HAKEDİŞ.pdf',
@@ -312,6 +354,9 @@ class MockDataService {
             path: '/hakedisler/15_nolu_hakedis.pdf',
             size: '17.6 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/15_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '16 NOLU HAKEDİŞ.pdf',
@@ -323,6 +368,9 @@ class MockDataService {
             path: '/hakedisler/16_nolu_hakedis.pdf',
             size: '19.5 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/16_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '17 NOLU HAKEDİŞ.pdf',
@@ -334,6 +382,9 @@ class MockDataService {
             path: '/hakedisler/17_nolu_hakedis.pdf',
             size: '17.5 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/17_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '18 NOLU HAKEDİŞ.pdf',
@@ -345,6 +396,9 @@ class MockDataService {
             path: '/hakedisler/18_nolu_hakedis.pdf',
             size: '18.3 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/18_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '19 NOLU HAKEDİŞ.pdf',
@@ -356,6 +410,9 @@ class MockDataService {
             path: '/hakedisler/19_nolu_hakedis.pdf',
             size: '16.9 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/19_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '20 NOLU HAKEDİŞ.pdf',
@@ -367,6 +424,9 @@ class MockDataService {
             path: '/hakedisler/20_nolu_hakedis.pdf',
             size: '18.6 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/20_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '21 NOLU HAKEDİŞ.pdf',
@@ -378,6 +438,9 @@ class MockDataService {
             path: '/hakedisler/21_nolu_hakedis.pdf',
             size: '19.1 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/21_nolu_hakedis.pdf',
           ),
           FileEntry(
             name: '22 NOLU HAKEDİŞ - İŞ SONU.pdf',
@@ -389,6 +452,9 @@ class MockDataService {
             path: '/hakedisler/22_nolu_hakedis_is_sonu.pdf',
             size: '18.6 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/22_nolu_hakedis_is_sonu.pdf',
           ),
           FileEntry(
             name: '22EK-1 NOLU HAKEDİŞ.pdf',
@@ -400,6 +466,9 @@ class MockDataService {
             path: '/hakedisler/22ek1_nolu_hakedis.pdf',
             size: '24.5 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/hakedisler/22ek1_nolu_hakedis.pdf',
           ),
         ];
       case '/gorseller/cephe-renkleri':
@@ -414,6 +483,9 @@ class MockDataService {
             path: '/gorseller/cephe-renkleri/cephe_renkleri_plani.pdf',
             size: '3.2 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/gorseller/cephe-renkleri/cephe_renkleri_plani.pdf',
           ),
           FileEntry(
             name: 'Renk_Kartelası.jpg',
@@ -425,6 +497,9 @@ class MockDataService {
             path: '/gorseller/cephe-renkleri/renk_kartelasi.jpg',
             size: '2.1 MB',
             extension: 'jpg',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/gorseller/cephe-renkleri/renk_kartelasi.jpg',
           ),
         ];
       case '/gorseller/tip-1-gb':
@@ -439,6 +514,9 @@ class MockDataService {
             path: '/gorseller/tip-1-gb/tip1_gb_plani.pdf',
             size: '4.8 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/gorseller/tip-1-gb/tip1_gb_plani.pdf',
           ),
           FileEntry(
             name: 'Tip-1_GB_Görsel.jpg',
@@ -450,6 +528,9 @@ class MockDataService {
             path: '/gorseller/tip-1-gb/tip1_gb_gorsel.jpg',
             size: '1.9 MB',
             extension: 'jpg',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/gorseller/tip-1-gb/tip1_gb_gorsel.jpg',
           ),
         ];
       case '/gorseller/tip-2-db':
@@ -464,6 +545,9 @@ class MockDataService {
             path: '/gorseller/tip-2-db/tip2_db_plani.pdf',
             size: '5.2 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/gorseller/tip-2-db/tip2_db_plani.pdf',
           ),
           FileEntry(
             name: 'Tip-2_DB_Görsel.jpg',
@@ -475,6 +559,9 @@ class MockDataService {
             path: '/gorseller/tip-2-db/tip2_db_gorsel.jpg',
             size: '2.3 MB',
             extension: 'jpg',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/gorseller/tip-2-db/tip2_db_gorsel.jpg',
           ),
         ];
       case '/ihale-dokumani':
@@ -489,6 +576,9 @@ class MockDataService {
             path: '/ihale-dokumani/010_ihale_dosyasi_baslik_index.doc',
             size: '56.5 KB',
             extension: 'doc',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/010_ihale_dosyasi_baslik_index.doc',
           ),
           FileEntry(
             name: '020-İDARİ ŞARTNAME BAŞLIK.doc',
@@ -500,6 +590,9 @@ class MockDataService {
             path: '/ihale-dokumani/020_idari_sartname_baslik.doc',
             size: '56.0 KB',
             extension: 'doc',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/020_idari_sartname_baslik.doc',
           ),
           FileEntry(
             name: '030-SÖZLEŞME BAŞLIK.doc',
@@ -511,6 +604,9 @@ class MockDataService {
             path: '/ihale-dokumani/030_sozlesme_baslik.doc',
             size: '55.5 KB',
             extension: 'doc',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/030_sozlesme_baslik.doc',
           ),
           FileEntry(
             name: '040-ÖZEL İDARİ VE TEKNİK ŞARTNAME BAŞLIK.doc',
@@ -522,6 +618,9 @@ class MockDataService {
             path: '/ihale-dokumani/040_ozel_idari_teknik_sartname_baslik.doc',
             size: '55.5 KB',
             extension: 'doc',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/040_ozel_idari_teknik_sartname_baslik.doc',
           ),
           FileEntry(
             name: '041-ÖZEL İDARİ TEKNİK ŞARTNAME.docx',
@@ -533,6 +632,9 @@ class MockDataService {
             path: '/ihale-dokumani/041_ozel_idari_teknik_sartname.docx',
             size: '172.8 KB',
             extension: 'docx',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/041_ozel_idari_teknik_sartname.docx',
           ),
           FileEntry(
             name: '050-MAHAL LİSTESİ BAŞLIK.doc',
@@ -544,6 +646,9 @@ class MockDataService {
             path: '/ihale-dokumani/050_mahal_listesi_baslik.doc',
             size: '52.5 KB',
             extension: 'doc',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/050_mahal_listesi_baslik.doc',
           ),
           FileEntry(
             name: '051-KONUT İNŞAAT TEKNİK ŞARTNAMESİ.docx',
@@ -555,6 +660,9 @@ class MockDataService {
             path: '/ihale-dokumani/051_konut_insaat_teknik_sartnamesi.docx',
             size: '235.5 KB',
             extension: 'docx',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/051_konut_insaat_teknik_sartnamesi.docx',
           ),
           FileEntry(
             name: '052-ELEKTRİK TEKNİK ŞARTNAME ve MAHAL LİSTESİ.DOC',
@@ -566,6 +674,9 @@ class MockDataService {
             path: '/ihale-dokumani/052_elektrik_teknik_sartname_mahal_listesi.doc',
             size: '426.0 KB',
             extension: 'doc',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/052_elektrik_teknik_sartname_mahal_listesi.doc',
           ),
           FileEntry(
             name: '053-KONUT MEKANİK MAHAL LİSTESİ.doc',
@@ -577,6 +688,9 @@ class MockDataService {
             path: '/ihale-dokumani/053_konut_mekanik_mahal_listesi.doc',
             size: '146.0 KB',
             extension: 'doc',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/053_konut_mekanik_mahal_listesi.doc',
           ),
           FileEntry(
             name: '054-TERFİ MERKEZİ MEKANİK MAHAL LİSTESİ.docx',
@@ -588,6 +702,9 @@ class MockDataService {
             path: '/ihale-dokumani/054_terfi_merkezi_mekanik_mahal_listesi.docx',
             size: '17.1 KB',
             extension: 'docx',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/054_terfi_merkezi_mekanik_mahal_listesi.docx',
           ),
           FileEntry(
             name: '055-PEYZAJ TEKNİK ŞARTNAMESİ.doc',
@@ -599,6 +716,9 @@ class MockDataService {
             path: '/ihale-dokumani/055_peyzaj_teknik_sartnamesi.doc',
             size: '734.5 KB',
             extension: 'doc',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/055_peyzaj_teknik_sartnamesi.doc',
           ),
           FileEntry(
             name: '060-ALTYAPI ŞARTNAMESİ BAŞLIK.doc',
@@ -610,6 +730,9 @@ class MockDataService {
             path: '/ihale-dokumani/060_altyapi_sartnamesi_baslik.doc',
             size: '56.0 KB',
             extension: 'doc',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/060_altyapi_sartnamesi_baslik.doc',
           ),
           FileEntry(
             name: '061-ALTYAPI GENEL ŞARTNAMESİ.docx',
@@ -621,6 +744,9 @@ class MockDataService {
             path: '/ihale-dokumani/061_altyapi_genel_sartnamesi.docx',
             size: '40.9 KB',
             extension: 'docx',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/061_altyapi_genel_sartnamesi.docx',
           ),
           FileEntry(
             name: '070-PROJE ÖZEL TEKNİK ŞART. BAŞLIK.doc',
@@ -632,6 +758,9 @@ class MockDataService {
             path: '/ihale-dokumani/070_proje_ozel_teknik_sart_baslik.doc',
             size: '56.5 KB',
             extension: 'doc',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/070_proje_ozel_teknik_sart_baslik.doc',
           ),
           FileEntry(
             name: '071-PROJE ÖZEL TEKNİK ŞARTNAMESİ.docx',
@@ -643,6 +772,9 @@ class MockDataService {
             path: '/ihale-dokumani/071_proje_ozel_teknik_sartnamesi.docx',
             size: '93.2 KB',
             extension: 'docx',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/071_proje_ozel_teknik_sartnamesi.docx',
           ),
           FileEntry(
             name: '2023-226755_idari_sartname.doc',
@@ -654,6 +786,9 @@ class MockDataService {
             path: '/ihale-dokumani/2023_226755_idari_sartname.doc',
             size: '137.9 KB',
             extension: 'doc',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/2023_226755_idari_sartname.doc',
           ),
           FileEntry(
             name: '2023-226755_sozlesme_tasarisi.doc',
@@ -665,6 +800,9 @@ class MockDataService {
             path: '/ihale-dokumani/2023_226755_sozlesme_tasarisi.doc',
             size: '78.1 KB',
             extension: 'doc',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/2023_226755_sozlesme_tasarisi.doc',
           ),
           FileEntry(
             name: 'standartFormlar',
@@ -674,6 +812,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin'],
             rolesWithDownloadAccess: ['admin', 'engineer'],
             path: '/ihale-dokumani/standart-formlar',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/ihale-dokumani/standart-formlar',
           ),
         ];
       case '/kabul-tutanaklari':
@@ -686,6 +827,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
             path: '/kabul-tutanaklari/1_kismi_gecici_kabul',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/kabul-tutanaklari/1_kismi_gecici_kabul',
           ),
           FileEntry(
             name: 'GEÇİCİ KABUL',
@@ -695,6 +839,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
             path: '/kabul-tutanaklari/gecici_kabul',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/kabul-tutanaklari/gecici_kabul',
           ),
         ];
       case '/malzeme-onaylari':
@@ -707,6 +854,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer'],
             path: '/malzeme-onaylari/yazismalar',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/malzeme-onaylari/yazismalar',
           ),
           FileEntry(
             name: 'ELEKTRİK',
@@ -716,6 +866,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer'],
             path: '/malzeme-onaylari/elektrik',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/malzeme-onaylari/elektrik',
           ),
           FileEntry(
             name: 'MEKANİK',
@@ -725,6 +878,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer'],
             path: '/malzeme-onaylari/mekanik',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/malzeme-onaylari/mekanik',
           ),
           FileEntry(
             name: 'PEYZAJ',
@@ -734,6 +890,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer'],
             path: '/malzeme-onaylari/peyzaj',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/malzeme-onaylari/peyzaj',
           ),
           FileEntry(
             name: 'İNŞAAT - EKSİK',
@@ -743,6 +902,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer'],
             path: '/malzeme-onaylari/insaat-eksik',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/malzeme-onaylari/insaat-eksik',
           ),
         ];
       case '/projeler-eksik':
@@ -755,6 +917,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
             path: '/projeler-eksik/dwg-eksik',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/projeler-eksik/dwg-eksik',
           ),
           FileEntry(
             name: '.AS ALTYAPI - ONAYLANDI. TARAMA GELMEDİ',
@@ -764,6 +929,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
             path: '/projeler-eksik/as-altyapi-onaylandi',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/projeler-eksik/as-altyapi-onaylandi',
           ),
           FileEntry(
             name: '.AS MİMARİ - ONAYLANDI. TARAMA GELMEDİ',
@@ -773,6 +941,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
             path: '/projeler-eksik/as-mimari-onaylandi',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/projeler-eksik/as-mimari-onaylandi',
           ),
           FileEntry(
             name: 'ALTYAPI - GELMEDİ',
@@ -782,6 +953,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
             path: '/projeler-eksik/altyapi-gelmedi',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/projeler-eksik/altyapi-gelmedi',
           ),
           FileEntry(
             name: 'ASANSÖR',
@@ -791,6 +965,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
             path: '/projeler-eksik/asansor',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/projeler-eksik/asansor',
           ),
           FileEntry(
             name: 'ELEKTRİK - REV',
@@ -800,6 +977,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
             path: '/projeler-eksik/elektrik-rev',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/projeler-eksik/elektrik-rev',
           ),
           FileEntry(
             name: 'ELEKTRİK ALTYAPI',
@@ -809,6 +989,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
             path: '/projeler-eksik/elektrik-altyapi',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/projeler-eksik/elektrik-altyapi',
           ),
           FileEntry(
             name: 'MEKANİK  - UYG',
@@ -818,6 +1001,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
             path: '/projeler-eksik/mekanik-uyg',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/projeler-eksik/mekanik-uyg',
           ),
           FileEntry(
             name: 'MİMARİ  - UYG',
@@ -827,6 +1013,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
             path: '/projeler-eksik/mimari-uyg',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/projeler-eksik/mimari-uyg',
           ),
           FileEntry(
             name: 'MİMARİ - REV',
@@ -836,6 +1025,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
             path: '/projeler-eksik/mimari-rev',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/projeler-eksik/mimari-rev',
           ),
           FileEntry(
             name: 'PEYZAJ - UYG',
@@ -845,6 +1037,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
             path: '/projeler-eksik/peyzaj-uyg',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/projeler-eksik/peyzaj-uyg',
           ),
           FileEntry(
             name: 'STATİK  - UYG',
@@ -854,6 +1049,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
             path: '/projeler-eksik/statik-uyg',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/projeler-eksik/statik-uyg',
           ),
           FileEntry(
             name: 'ZEMİN',
@@ -863,6 +1061,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
             path: '/projeler-eksik/zemin',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/projeler-eksik/zemin',
           ),
         ];
       case '/sozlesme':
@@ -877,6 +1078,9 @@ class MockDataService {
             path: '/sozlesme/1_sozlesme_evraklari.pdf',
             size: '6.8 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/sozlesme/1_sozlesme_evraklari.pdf',
           ),
           FileEntry(
             name: '2-Sözleşme.pdf',
@@ -888,6 +1092,9 @@ class MockDataService {
             path: '/sozlesme/2_sozlesme.pdf',
             size: '4.1 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/sozlesme/2_sozlesme.pdf',
           ),
           FileEntry(
             name: '3-İdari Şartname.pdf',
@@ -899,6 +1106,9 @@ class MockDataService {
             path: '/sozlesme/3_idari_sartname.pdf',
             size: '1.7 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/sozlesme/3_idari_sartname.pdf',
           ),
           FileEntry(
             name: '4-Özel İdari Teknik Şartname.pdf',
@@ -910,6 +1120,9 @@ class MockDataService {
             path: '/sozlesme/4_ozel_idari_teknik_sartname.pdf',
             size: '4.3 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/sozlesme/4_ozel_idari_teknik_sartname.pdf',
           ),
           FileEntry(
             name: '5-İnşaat Mahal Listesi.pdf',
@@ -921,6 +1134,9 @@ class MockDataService {
             path: '/sozlesme/5_insaat_mahal_listesi.pdf',
             size: '7.3 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/sozlesme/5_insaat_mahal_listesi.pdf',
           ),
           FileEntry(
             name: '6-Elektrik Mahal Listesi.pdf',
@@ -932,6 +1148,9 @@ class MockDataService {
             path: '/sozlesme/6_elektrik_mahal_listesi.pdf',
             size: '7.9 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/sozlesme/6_elektrik_mahal_listesi.pdf',
           ),
           FileEntry(
             name: '7-Mekanik Mahal Listesi.pdf',
@@ -943,6 +1162,9 @@ class MockDataService {
             path: '/sozlesme/7_mekanik_mahal_listesi.pdf',
             size: '3.2 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/sozlesme/7_mekanik_mahal_listesi.pdf',
           ),
           FileEntry(
             name: '8-Peyzaj Mahal Listesi.pdf',
@@ -954,6 +1176,9 @@ class MockDataService {
             path: '/sozlesme/8_peyzaj_mahal_listesi.pdf',
             size: '4.9 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/sozlesme/8_peyzaj_mahal_listesi.pdf',
           ),
           FileEntry(
             name: '9-Altyapı Genel Şartname.pdf',
@@ -965,6 +1190,9 @@ class MockDataService {
             path: '/sozlesme/9_altyapi_genel_sartname.pdf',
             size: '1.3 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/sozlesme/9_altyapi_genel_sartname.pdf',
           ),
           FileEntry(
             name: '10-Proje Özel Teknik Şartnamesi.pdf',
@@ -976,6 +1204,9 @@ class MockDataService {
             path: '/sozlesme/10_proje_ozel_teknik_sartnamesi.pdf',
             size: '4.1 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/sozlesme/10_proje_ozel_teknik_sartnamesi.pdf',
           ),
         ];
       case '/teslim-tutanaklari':
@@ -990,6 +1221,9 @@ class MockDataService {
             path: '/teslim-tutanaklari/isyeri_teslim_tutanagi.pdf',
             size: '113.3 KB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/teslim-tutanaklari/isyeri_teslim_tutanagi.pdf',
           ),
         ];
       case '/yazismalar':
@@ -1002,6 +1236,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'idari_personel'],
             path: '/yazismalar/gelen',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/yazismalar/gelen',
           ),
           FileEntry(
             name: 'GİDEN',
@@ -1011,6 +1248,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'idari_personel'],
             path: '/yazismalar/giden',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/yazismalar/giden',
           ),
           FileEntry(
             name: 'İÇ YAZIŞMALAR',
@@ -1020,6 +1260,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'idari_personel'],
             path: '/yazismalar/ic_yazismalar',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/yazismalar/ic_yazismalar',
           ),
         ];
       case '/isg':
@@ -1038,6 +1281,9 @@ class MockDataService {
             path: '/is-programi/is_programi.pdf',
             size: '27.2 MB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/is-programi/is_programi.pdf',
           ),
         ];
       case '/sikayet-giderilmesi':
@@ -1050,6 +1296,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer'],
             path: '/sikayet-giderilmesi/gelen',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/sikayet-giderilmesi/gelen',
           ),
           FileEntry(
             name: 'GİDEN',
@@ -1059,6 +1308,9 @@ class MockDataService {
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer'],
             path: '/sikayet-giderilmesi/giden',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '/sikayet-giderilmesi/giden',
           ),
         ];
       default:
@@ -1073,6 +1325,9 @@ class MockDataService {
             path: '$folderPath/ornek_dosya.pdf',
             size: '500 KB',
             extension: 'pdf',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
+                '$folderPath/ornek_dosya.pdf',
           ),
         ];
     }

@@ -8,6 +8,7 @@ class FileEntry {
   final String? path;
   final String? size;
   final String? extension;
+  final String? url;
 
   FileEntry({
     required this.name,
@@ -19,6 +20,7 @@ class FileEntry {
     this.path,
     this.size,
     this.extension,
+    this.url,
   });
 
   factory FileEntry.fromJson(Map<String, dynamic> json) {
@@ -32,6 +34,7 @@ class FileEntry {
       path: json['path'],
       size: json['size'],
       extension: json['extension'],
+      url: json['url'],
     );
   }
 
@@ -46,6 +49,7 @@ class FileEntry {
       'path': path,
       'size': size,
       'extension': extension,
+      'url': url,
     };
   }
 
