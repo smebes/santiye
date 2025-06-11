@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../services/app_state.dart';
 import '../services/mock_data.dart';
+import '../utils/permissions.dart';
 import '../widgets/folder_card.dart';
 import 'folder_contents_page.dart';
 import 'login_page.dart';
@@ -17,7 +18,18 @@ class DocumentDashboard extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Şantiye Belge Sistemi'),
+        title: Column(
+          children: [
+            Text('Şantiye Belge Sistemi', style: TextStyle(fontSize: isDesktop ? 20 : 18, fontWeight: FontWeight.bold)),
+            if (isTablet) ...[
+              const SizedBox(height: 2),
+              Text(
+                Permissions.getProjectShortTitle(),
+                style: TextStyle(fontSize: 12, fontWeight: FontWeight.normal, color: Colors.white.withOpacity(0.8)),
+              ),
+            ],
+          ],
+        ),
         backgroundColor: Theme.of(context).colorScheme.primary,
         foregroundColor: Colors.white,
         elevation: 2,
@@ -77,7 +89,7 @@ class DocumentDashboard extends StatelessWidget {
 
           return Column(
             children: [
-              // Kullanıcı bilgi kartı
+              // Proje bilgi kartı
               Container(
                 width: double.infinity,
                 margin: EdgeInsets.all(isDesktop ? 24 : 16),
@@ -93,6 +105,14 @@ class DocumentDashboard extends StatelessWidget {
                 ),
                 child: Column(
                   children: [
+                    if (isDesktop) ...[
+                      Text(
+                        Permissions.getProjectTitle(),
+                        style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold),
+                        textAlign: TextAlign.center,
+                      ),
+                      const SizedBox(height: 8),
+                    ],
                     Text(
                       'Hoş Geldiniz, ${appState.currentUser!.name}',
                       style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold),
@@ -113,6 +133,21 @@ class DocumentDashboard extends StatelessWidget {
                         context,
                       ).textTheme.bodySmall?.copyWith(color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6)),
                       textAlign: TextAlign.center,
+                    ),
+                    const SizedBox(height: 8),
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      decoration: BoxDecoration(
+                        color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: Text(
+                        'Son güncelleme: ${Permissions.formatDateTime(DateTime.now())}',
+                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: Theme.of(context).colorScheme.primary,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
                     ),
                   ],
                 ),

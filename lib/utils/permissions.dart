@@ -34,6 +34,10 @@ class Permissions {
       case 'zip':
       case 'rar':
         return '📦';
+      case 'mp4':
+      case 'avi':
+      case 'mov':
+        return '🎥';
       default:
         return '📄';
     }
@@ -43,7 +47,7 @@ class Permissions {
     switch (folderName.toLowerCase()) {
       case 'görseller':
         return '🖼️';
-      case 'ihale dokümanı':
+      case 'ihale_dokumani_2023_226755':
         return '📋';
       case 'hakedişler':
         return '💰';
@@ -51,7 +55,7 @@ class Permissions {
         return '✅';
       case 'malzeme onayları':
         return '🔧';
-      case 'projeler – eksik':
+      case 'projeler - eksik':
         return '📐';
       case 'sözleşme':
         return '📜';
@@ -63,7 +67,7 @@ class Permissions {
         return '🛡️';
       case 'iş programı':
         return '📅';
-      case 'şikayetlerin giderilmesi':
+      case 'şikayet ve şikayetlerin giderilmesi':
         return '🔧';
       default:
         return '📁';
@@ -81,5 +85,13 @@ class Permissions {
 
   static String formatDateTime(DateTime date) {
     return '${formatDate(date)} ${date.hour.toString().padLeft(2, '0')}:${date.minute.toString().padLeft(2, '0')}';
+  }
+
+  static String getProjectTitle() {
+    return 'ERENSAN ÖZPOLAT - GAZİANTEP İLİ NURDAĞI İLÇESİ BAŞPINAR MAH. 2.ETAP 479AD KONUT İNŞAATI';
+  }
+
+  static String getProjectShortTitle() {
+    return 'ERENSAN ÖZPOLAT - GAZİANTEP KONUT İNŞAATI';
   }
 }
