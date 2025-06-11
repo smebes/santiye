@@ -199,7 +199,7 @@ class _FolderContentsPageState extends State<FolderContentsPage> {
                       child: GridView.builder(
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           crossAxisCount: isMobile ? 2 : (isTablet ? 3 : 4),
-                          childAspectRatio: 1.2,
+                          childAspectRatio: 2.5,
                           crossAxisSpacing: 16,
                           mainAxisSpacing: 16,
                         ),
