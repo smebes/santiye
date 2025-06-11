@@ -474,95 +474,92 @@ class MockDataService {
       case '/gorseller/cephe-renkleri':
         return [
           FileEntry(
-            name: 'Cephe_Renkleri_Planı.pdf',
+            name: '20230726-kahramanmaraş-479konut_1 - Photo.jpg',
             isDirectory: false,
-            modifiedDate: DateTime(2023, 9, 11, 10, 57),
+            modifiedDate: DateTime(2023, 7, 26, 3, 23),
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/gorseller/cephe-renkleri/cephe_renkleri_plani.pdf',
-            size: '3.2 MB',
-            extension: 'pdf',
-            url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/gorseller/cephe-renkleri/cephe_renkleri_plani.pdf',
-          ),
-          FileEntry(
-            name: 'Renk_Kartelası.jpg',
-            isDirectory: false,
-            modifiedDate: DateTime(2023, 9, 10, 15, 30),
-            rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
-            rolesWithEditAccess: ['admin', 'engineer'],
-            rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/gorseller/cephe-renkleri/renk_kartelasi.jpg',
-            size: '2.1 MB',
+            path: '/gorseller/cephe-renkleri/20230726-kahramanmaras-479konut_1-photo.jpg',
+            size: '912 KB',
             extension: 'jpg',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/gorseller/cephe-renkleri/renk_kartelasi.jpg',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/-.GÖRSELLER/CEPHE%20RENKLERİ/20230726-kahramanmaraş-479konut_1%20-%20Photo.jpg',
           ),
+          FileEntry(
+            name: '20230726-kahramanmaraş-479konut_10 - Foto.jpg',
+            isDirectory: false,
+            modifiedDate: DateTime(2023, 7, 26, 3, 21),
+            rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
+            rolesWithEditAccess: ['admin', 'engineer'],
+            rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
+            path: '/gorseller/cephe-renkleri/20230726-kahramanmaras-479konut_10-foto.jpg',
+            size: '791 KB',
+            extension: 'jpg',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/-.GÖRSELLER/CEPHE%20RENKLERİ/20230726-kahramanmaraş-479konut_10%20-%20Foto.jpg',
+          ),
+          // ... Benzer şekilde diğer jpg dosyalarını ekle ...
         ];
       case '/gorseller/tip-1-gb':
         return [
           FileEntry(
-            name: 'Tip-1_GB_Planı.pdf',
+            name: 'Görseller (1).jpg',
             isDirectory: false,
-            modifiedDate: DateTime(2023, 8, 6, 13, 31),
+            modifiedDate: DateTime(2023, 2, 27, 15, 42),
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/gorseller/tip-1-gb/tip1_gb_plani.pdf',
-            size: '4.8 MB',
-            extension: 'pdf',
-            url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/gorseller/tip-1-gb/tip1_gb_plani.pdf',
-          ),
-          FileEntry(
-            name: 'Tip-1_GB_Görsel.jpg',
-            isDirectory: false,
-            modifiedDate: DateTime(2023, 8, 6, 13, 31),
-            rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
-            rolesWithEditAccess: ['admin', 'engineer'],
-            rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/gorseller/tip-1-gb/tip1_gb_gorsel.jpg',
-            size: '1.9 MB',
+            path: '/gorseller/tip-1-gb/gorseller-1.jpg',
+            size: '6.4 MB',
             extension: 'jpg',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/gorseller/tip-1-gb/tip1_gb_gorsel.jpg',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/-.GÖRSELLER/Tip-1%20(GB)/Görseller%20(1).jpg',
           ),
+          FileEntry(
+            name: 'Görseller (2).jpg',
+            isDirectory: false,
+            modifiedDate: DateTime(2023, 2, 27, 15, 42),
+            rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
+            rolesWithEditAccess: ['admin', 'engineer'],
+            rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
+            path: '/gorseller/tip-1-gb/gorseller-2.jpg',
+            size: '6.3 MB',
+            extension: 'jpg',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/-.GÖRSELLER/Tip-1%20(GB)/Görseller%20(2).jpg',
+          ),
+          // ... Benzer şekilde diğer jpg dosyalarını ekle ...
         ];
       case '/gorseller/tip-2-db':
         return [
           FileEntry(
-            name: 'Tip-2_DB_Planı.pdf',
+            name: 'Görseller (1).jpg',
             isDirectory: false,
-            modifiedDate: DateTime(2023, 8, 6, 13, 31),
+            modifiedDate: DateTime(2023, 2, 27, 15, 42),
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/gorseller/tip-2-db/tip2_db_plani.pdf',
-            size: '5.2 MB',
-            extension: 'pdf',
-            url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/gorseller/tip-2-db/tip2_db_plani.pdf',
-          ),
-          FileEntry(
-            name: 'Tip-2_DB_Görsel.jpg',
-            isDirectory: false,
-            modifiedDate: DateTime(2023, 8, 6, 13, 31),
-            rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
-            rolesWithEditAccess: ['admin', 'engineer'],
-            rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/gorseller/tip-2-db/tip2_db_gorsel.jpg',
-            size: '2.3 MB',
+            path: '/gorseller/tip-2-db/gorseller-1.jpg',
+            size: '5.8 MB',
             extension: 'jpg',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/gorseller/tip-2-db/tip2_db_gorsel.jpg',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/-.GÖRSELLER/Tip-2%20(DB)/Görseller%20(1).jpg',
           ),
+          FileEntry(
+            name: 'Görseller (2).jpg',
+            isDirectory: false,
+            modifiedDate: DateTime(2023, 2, 27, 15, 42),
+            rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
+            rolesWithEditAccess: ['admin', 'engineer'],
+            rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
+            path: '/gorseller/tip-2-db/gorseller-2.jpg',
+            size: '6.2 MB',
+            extension: 'jpg',
+            url:
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/-.GÖRSELLER/Tip-2%20(DB)/Görseller%20(2).jpg',
+          ),
+          // ... Benzer şekilde diğer jpg dosyalarını ekle ...
         ];
       case '/ihale-dokumani':
         return [

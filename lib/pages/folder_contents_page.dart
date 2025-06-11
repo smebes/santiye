@@ -201,9 +201,9 @@ class _FolderContentsPageState extends State<FolderContentsPage> {
                       child: GridView.builder(
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           crossAxisCount: isMobile ? 2 : (isTablet ? 3 : 4),
-                          childAspectRatio: 2.0,
-                          crossAxisSpacing: 16,
-                          mainAxisSpacing: 16,
+                          childAspectRatio: 1.1,
+                          crossAxisSpacing: 4,
+                          mainAxisSpacing: 4,
                         ),
                         itemCount: _files.length,
                         itemBuilder: (context, index) {
