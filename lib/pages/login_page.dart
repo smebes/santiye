@@ -35,6 +35,9 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     final roleDisplayNames = MockDataService.getRoleDisplayNames();
     final availableRoles = MockDataService.getAvailableRoles();
+    final screenWidth = MediaQuery.of(context).size.width;
+    final isTablet = screenWidth > 600;
+    final isDesktop = screenWidth > 900;
 
     return Scaffold(
       body: Container(
@@ -50,12 +53,25 @@ class _LoginPageState extends State<LoginPage> {
         ),
         child: Center(
           child: SingleChildScrollView(
-            padding: const EdgeInsets.all(24),
+            padding: EdgeInsets.all(isDesktop ? 32 : 24),
             child: Card(
               elevation: 8,
               child: Container(
-                constraints: const BoxConstraints(maxWidth: 400),
-                padding: const EdgeInsets.all(32),
+                constraints: BoxConstraints(
+                  maxWidth:
+                      isDesktop
+                          ? 500
+                          : isTablet
+                          ? 450
+                          : 400,
+                ),
+                padding: EdgeInsets.all(
+                  isDesktop
+                      ? 40
+                      : isTablet
+                      ? 32
+                      : 24,
+                ),
                 child: Form(
                   key: _formKey,
                   child: Column(
@@ -63,20 +79,26 @@ class _LoginPageState extends State<LoginPage> {
                     children: [
                       // Logo ve başlık
                       Container(
-                        width: 80,
-                        height: 80,
+                        width: isDesktop ? 100 : 80,
+                        height: isDesktop ? 100 : 80,
                         decoration: BoxDecoration(
                           color: Theme.of(context).colorScheme.primary,
-                          borderRadius: BorderRadius.circular(20),
+                          borderRadius: BorderRadius.circular(isDesktop ? 25 : 20),
                         ),
-                        child: const Icon(Icons.folder_shared, size: 40, color: Colors.white),
+                        child: Icon(Icons.folder_shared, size: isDesktop ? 50 : 40, color: Colors.white),
                       ),
-                      const SizedBox(height: 24),
+                      SizedBox(height: isDesktop ? 32 : 24),
                       Text(
                         'Şantiye Belge Sistemi',
                         style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                           fontWeight: FontWeight.bold,
                           color: Theme.of(context).colorScheme.primary,
+                          fontSize:
+                              isDesktop
+                                  ? 32
+                                  : isTablet
+                                  ? 28
+                                  : 24,
                         ),
                       ),
                       const SizedBox(height: 8),
@@ -84,10 +106,11 @@ class _LoginPageState extends State<LoginPage> {
                         'Kurum İçi Belge Takip ve Yetkilendirme',
                         style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                           color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
+                          fontSize: isDesktop ? 16 : 14,
                         ),
                         textAlign: TextAlign.center,
                       ),
-                      const SizedBox(height: 32),
+                      SizedBox(height: isDesktop ? 40 : 32),
 
                       // Kullanıcı adı alanı
                       TextFormField(
@@ -122,12 +145,12 @@ class _LoginPageState extends State<LoginPage> {
                           });
                         },
                       ),
-                      const SizedBox(height: 32),
+                      SizedBox(height: isDesktop ? 40 : 32),
 
                       // Giriş butonu
                       SizedBox(
                         width: double.infinity,
-                        height: 50,
+                        height: isDesktop ? 56 : 50,
                         child: ElevatedButton(
                           onPressed: _login,
                           style: ElevatedButton.styleFrom(
@@ -135,9 +158,9 @@ class _LoginPageState extends State<LoginPage> {
                             foregroundColor: Colors.white,
                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
                           ),
-                          child: const Text(
+                          child: Text(
                             'Sisteme Giriş Yap',
-                            style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                            style: TextStyle(fontSize: isDesktop ? 18 : 16, fontWeight: FontWeight.bold),
                           ),
                         ),
                       ),
@@ -145,7 +168,7 @@ class _LoginPageState extends State<LoginPage> {
 
                       // Bilgi metni
                       Container(
-                        padding: const EdgeInsets.all(12),
+                        padding: EdgeInsets.all(isDesktop ? 16 : 12),
                         decoration: BoxDecoration(
                           color: Theme.of(context).colorScheme.primaryContainer.withOpacity(0.3),
                           borderRadius: BorderRadius.circular(8),
@@ -153,7 +176,7 @@ class _LoginPageState extends State<LoginPage> {
                         child: Text(
                           'Her rol farklı yetkilere sahiptir. Sistem içeriğine erişiminiz seçtiğiniz role göre belirlenir.',
                           style: TextStyle(
-                            fontSize: 12,
+                            fontSize: isDesktop ? 14 : 12,
                             color: Theme.of(context).colorScheme.onSurface.withOpacity(0.8),
                           ),
                           textAlign: TextAlign.center,

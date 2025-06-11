@@ -12,6 +12,9 @@ class FolderCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final canView = folder.hasViewAccess(userRole);
+    final screenWidth = MediaQuery.of(context).size.width;
+    final isTablet = screenWidth > 600;
+    final isDesktop = screenWidth > 900;
 
     return Card(
       elevation: 4,
@@ -20,7 +23,7 @@ class FolderCard extends StatelessWidget {
         onTap: canView ? onTap : null,
         borderRadius: BorderRadius.circular(12),
         child: Container(
-          padding: const EdgeInsets.all(16),
+          padding: EdgeInsets.all(isDesktop ? 20 : 16),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(12),
             gradient:
@@ -38,32 +41,50 @@ class FolderCard extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(Permissions.getFolderIcon(folder.name), style: const TextStyle(fontSize: 48)),
-              const SizedBox(height: 12),
+              Text(
+                Permissions.getFolderIcon(folder.name),
+                style: TextStyle(
+                  fontSize:
+                      isDesktop
+                          ? 56
+                          : isTablet
+                          ? 48
+                          : 40,
+                ),
+              ),
+              SizedBox(height: isDesktop ? 16 : 12),
               Text(
                 folder.name,
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: 16,
+                  fontSize:
+                      isDesktop
+                          ? 18
+                          : isTablet
+                          ? 16
+                          : 14,
                   fontWeight: FontWeight.bold,
                   color:
                       canView
                           ? Theme.of(context).colorScheme.onSurface
                           : Theme.of(context).colorScheme.onSurface.withOpacity(0.5),
                 ),
-                maxLines: 2,
+                maxLines: isDesktop ? 3 : 2,
                 overflow: TextOverflow.ellipsis,
               ),
-              const SizedBox(height: 8),
+              SizedBox(height: isDesktop ? 12 : 8),
               Text(
                 'Son güncelleme: ${Permissions.formatDate(folder.modifiedDate)}',
-                style: TextStyle(fontSize: 12, color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7)),
+                style: TextStyle(
+                  fontSize: isDesktop ? 14 : 12,
+                  color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
+                ),
                 textAlign: TextAlign.center,
               ),
               if (!canView) ...[
-                const SizedBox(height: 8),
+                SizedBox(height: isDesktop ? 12 : 8),
                 Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                  padding: EdgeInsets.symmetric(horizontal: isDesktop ? 12 : 8, vertical: isDesktop ? 6 : 4),
                   decoration: BoxDecoration(
                     color: Theme.of(context).colorScheme.error.withOpacity(0.1),
                     borderRadius: BorderRadius.circular(8),
@@ -71,7 +92,7 @@ class FolderCard extends StatelessWidget {
                   child: Text(
                     'Erişim Yok',
                     style: TextStyle(
-                      fontSize: 10,
+                      fontSize: isDesktop ? 12 : 10,
                       color: Theme.of(context).colorScheme.error,
                       fontWeight: FontWeight.bold,
                     ),

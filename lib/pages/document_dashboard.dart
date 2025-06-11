@@ -11,6 +11,10 @@ class DocumentDashboard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width;
+    final isTablet = screenWidth > 600;
+    final isDesktop = screenWidth > 900;
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Şantiye Belge Sistemi'),
@@ -48,7 +52,9 @@ class DocumentDashboard extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(width: 8),
-                        Text(appState.currentUser!.name, style: const TextStyle(color: Colors.white)),
+                        if (isTablet) ...[
+                          Text(appState.currentUser!.name, style: const TextStyle(color: Colors.white)),
+                        ],
                         const Icon(Icons.arrow_drop_down, color: Colors.white),
                       ],
                     ),
@@ -74,8 +80,8 @@ class DocumentDashboard extends StatelessWidget {
               // Kullanıcı bilgi kartı
               Container(
                 width: double.infinity,
-                margin: const EdgeInsets.all(16),
-                padding: const EdgeInsets.all(16),
+                margin: EdgeInsets.all(isDesktop ? 24 : 16),
+                padding: EdgeInsets.all(isDesktop ? 24 : 16),
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: [
@@ -90,6 +96,7 @@ class DocumentDashboard extends StatelessWidget {
                     Text(
                       'Hoş Geldiniz, ${appState.currentUser!.name}',
                       style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold),
+                      textAlign: TextAlign.center,
                     ),
                     const SizedBox(height: 4),
                     Text(
@@ -97,6 +104,7 @@ class DocumentDashboard extends StatelessWidget {
                       style: Theme.of(
                         context,
                       ).textTheme.bodyMedium?.copyWith(color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7)),
+                      textAlign: TextAlign.center,
                     ),
                     const SizedBox(height: 8),
                     Text(
@@ -104,6 +112,7 @@ class DocumentDashboard extends StatelessWidget {
                       style: Theme.of(
                         context,
                       ).textTheme.bodySmall?.copyWith(color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6)),
+                      textAlign: TextAlign.center,
                     ),
                   ],
                 ),
@@ -127,12 +136,22 @@ class DocumentDashboard extends StatelessWidget {
                           ),
                         )
                         : GridView.builder(
-                          padding: const EdgeInsets.all(16),
-                          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                            crossAxisCount: 2,
-                            childAspectRatio: 0.8,
-                            crossAxisSpacing: 16,
-                            mainAxisSpacing: 16,
+                          padding: EdgeInsets.all(isDesktop ? 24 : 16),
+                          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                            crossAxisCount:
+                                isDesktop
+                                    ? 4
+                                    : isTablet
+                                    ? 3
+                                    : 2,
+                            childAspectRatio:
+                                isDesktop
+                                    ? 0.9
+                                    : isTablet
+                                    ? 0.8
+                                    : 0.7,
+                            crossAxisSpacing: isDesktop ? 20 : 16,
+                            mainAxisSpacing: isDesktop ? 20 : 16,
                           ),
                           itemCount: filteredFolders.length,
                           itemBuilder: (context, index) {
