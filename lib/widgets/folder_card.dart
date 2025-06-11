@@ -5,13 +5,14 @@ import '../utils/permissions.dart';
 class FolderCard extends StatelessWidget {
   final FileEntry folder;
   final VoidCallback onTap;
-  final String userRole;
+  final String? userRole;
 
-  const FolderCard({super.key, required this.folder, required this.onTap, required this.userRole});
+  const FolderCard({super.key, required this.folder, required this.onTap, this.userRole});
 
   @override
   Widget build(BuildContext context) {
-    final canView = folder.hasViewAccess(userRole);
+    final role = userRole ?? 'guest';
+    final canView = folder.hasViewAccess(role);
     final screenWidth = MediaQuery.of(context).size.width;
     final isTablet = screenWidth > 600;
     final isDesktop = screenWidth > 900;

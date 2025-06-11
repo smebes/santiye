@@ -4,18 +4,19 @@ import '../utils/permissions.dart';
 
 class FileCard extends StatelessWidget {
   final FileEntry file;
-  final String userRole;
+  final String? userRole;
   final VoidCallback? onView;
   final VoidCallback? onDownload;
   final VoidCallback? onEdit;
 
-  const FileCard({super.key, required this.file, required this.userRole, this.onView, this.onDownload, this.onEdit});
+  const FileCard({super.key, required this.file, this.userRole, this.onView, this.onDownload, this.onEdit});
 
   @override
   Widget build(BuildContext context) {
-    final canView = file.hasViewAccess(userRole);
-    final canEdit = file.hasEditAccess(userRole);
-    final canDownload = file.hasDownloadAccess(userRole);
+    final role = userRole ?? 'guest';
+    final canView = file.hasViewAccess(role);
+    final canEdit = file.hasEditAccess(role);
+    final canDownload = file.hasDownloadAccess(role);
 
     return Card(
       elevation: 2,

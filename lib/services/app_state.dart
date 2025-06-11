@@ -11,6 +11,7 @@ class AppState extends ChangeNotifier {
   bool _isLoading = false;
 
   User? get currentUser => _currentUser;
+  String get currentRole => _currentUser?.role ?? 'guest';
   List<FileEntry> get mainFolders => _mainFolders;
   List<FileEntry> get currentFolderContents => _currentFolderContents;
   String get currentFolderPath => _currentFolderPath;
