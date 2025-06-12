@@ -8,6 +8,8 @@ import '../widgets/folder_card.dart';
 import 'package:provider/provider.dart';
 import '../pages/pdf_viewer_page.dart';
 import '../pages/image_viewer_page.dart';
+import 'dart:html' as html;
+import 'package:flutter/foundation.dart' show kIsWeb;
 
 class FolderContentsPage extends StatefulWidget {
   final String folderPath;
@@ -326,8 +328,7 @@ class _FolderContentsPageState extends State<FolderContentsPage> {
         file.extension == 'docx' ||
         file.extension == 'xls' ||
         file.extension == 'xlsx') {
-      final viewerUrl = 'https://docs.google.com/gview?url=${Uri.encodeComponent(file.url ?? '')}&embedded=true';
-      Navigator.of(context).push(MaterialPageRoute(builder: (context) => PdfViewerPage(url: viewerUrl)));
+      _downloadFile(file);
     } else {
       ScaffoldMessenger.of(
         context,
@@ -336,9 +337,16 @@ class _FolderContentsPageState extends State<FolderContentsPage> {
   }
 
   void _downloadFile(FileEntry file) {
-    ScaffoldMessenger.of(
-      context,
-    ).showSnackBar(SnackBar(content: Text('${file.name} indiriliyor...'), backgroundColor: Colors.green));
+    if (kIsWeb && file.url != null) {
+      final anchor =
+          html.AnchorElement(href: file.url)
+            ..setAttribute('download', file.name)
+            ..click();
+    } else {
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text('${file.name} indiriliyor...'), backgroundColor: Colors.green));
+    }
   }
 
   void _editFile(FileEntry file) {
