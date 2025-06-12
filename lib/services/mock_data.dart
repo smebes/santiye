@@ -155,12 +155,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/1_nolu_hakedis.pdf',
-            size: '11.4 MB',
+            path: '/hakedisler/1-nolu-hakedis.pdf',
+            size: '10.9 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/1_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/1%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '2 NOLU HAKEDİŞ.pdf',
@@ -169,12 +168,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/2_nolu_hakedis.pdf',
-            size: '11.4 MB',
+            path: '/hakedisler/2-nolu-hakedis.pdf',
+            size: '10.9 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/2_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/2%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '3 NOLU HAKEDİŞ.pdf',
@@ -183,12 +181,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/3_nolu_hakedis.pdf',
-            size: '17.9 MB',
+            path: '/hakedisler/3-nolu-hakedis.pdf',
+            size: '17.1 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/3_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/3%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '4 NOLU HAKEDİŞ.pdf',
@@ -197,12 +194,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/4_nolu_hakedis.pdf',
+            path: '/hakedisler/4-nolu-hakedis.pdf',
             size: '15.2 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/4_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/4%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '5 NOLU HAKEDİŞ.pdf',
@@ -211,12 +207,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/5_nolu_hakedis.pdf',
-            size: '14.5 MB',
+            path: '/hakedisler/5-nolu-hakedis.pdf',
+            size: '13.9 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/5_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/5%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '6 NOLU HAKEDİŞ.pdf',
@@ -225,12 +220,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/6_nolu_hakedis.pdf',
-            size: '14.0 MB',
+            path: '/hakedisler/6-nolu-hakedis.pdf',
+            size: '13.4 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/6_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/6%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '7 NOLU HAKEDİŞ.pdf',
@@ -239,12 +233,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/7_nolu_hakedis.pdf',
-            size: '18.3 MB',
+            path: '/hakedisler/7-nolu-hakedis.pdf',
+            size: '17.5 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/7_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/7%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '8 NOLU HAKEDİŞ.pdf',
@@ -253,12 +246,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/8_nolu_hakedis.pdf',
-            size: '16.3 MB',
+            path: '/hakedisler/8-nolu-hakedis.pdf',
+            size: '15.6 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/8_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/8%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '9 NOLU HAKEDİŞ.pdf',
@@ -267,12 +259,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/9_nolu_hakedis.pdf',
-            size: '17.6 MB',
+            path: '/hakedisler/9-nolu-hakedis.pdf',
+            size: '16.9 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/9_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/9%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '10 NOLU HAKEDİŞ.pdf',
@@ -281,12 +272,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/10_nolu_hakedis.pdf',
-            size: '16.5 MB',
+            path: '/hakedisler/10-nolu-hakedis.pdf',
+            size: '15.8 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/10_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/10%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '11 NOLU HAKEDİŞ.pdf',
@@ -295,12 +285,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/11_nolu_hakedis.pdf',
-            size: '16.1 MB',
+            path: '/hakedisler/11-nolu-hakedis.pdf',
+            size: '15.4 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/11_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/11%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '12 NOLU HAKEDİŞ.pdf',
@@ -309,12 +298,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/12_nolu_hakedis.pdf',
-            size: '19.4 MB',
+            path: '/hakedisler/12-nolu-hakedis.pdf',
+            size: '18.5 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/12_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/12%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '13 NOLU HAKEDİŞ.pdf',
@@ -323,12 +311,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/13_nolu_hakedis.pdf',
-            size: '18.9 MB',
+            path: '/hakedisler/13-nolu-hakedis.pdf',
+            size: '18.0 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/13_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/13%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '14 NOLU HAKEDİŞ.pdf',
@@ -337,12 +324,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/14_nolu_hakedis.pdf',
-            size: '17.2 MB',
+            path: '/hakedisler/14-nolu-hakedis.pdf',
+            size: '16.4 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/14_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/14%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '15 NOLU HAKEDİŞ.pdf',
@@ -351,12 +337,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/15_nolu_hakedis.pdf',
-            size: '17.6 MB',
+            path: '/hakedisler/15-nolu-hakedis.pdf',
+            size: '16.8 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/15_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/15%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '16 NOLU HAKEDİŞ.pdf',
@@ -365,12 +350,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/16_nolu_hakedis.pdf',
-            size: '19.5 MB',
+            path: '/hakedisler/16-nolu-hakedis.pdf',
+            size: '18.7 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/16_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/16%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '17 NOLU HAKEDİŞ.pdf',
@@ -379,12 +363,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/17_nolu_hakedis.pdf',
-            size: '17.5 MB',
+            path: '/hakedisler/17-nolu-hakedis.pdf',
+            size: '16.8 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/17_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/17%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '18 NOLU HAKEDİŞ.pdf',
@@ -393,12 +376,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/18_nolu_hakedis.pdf',
-            size: '18.3 MB',
+            path: '/hakedisler/18-nolu-hakedis.pdf',
+            size: '17.5 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/18_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/18%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '19 NOLU HAKEDİŞ.pdf',
@@ -407,12 +389,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/19_nolu_hakedis.pdf',
-            size: '16.9 MB',
+            path: '/hakedisler/19-nolu-hakedis.pdf',
+            size: '16.2 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/19_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/19%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '20 NOLU HAKEDİŞ.pdf',
@@ -421,12 +402,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/20_nolu_hakedis.pdf',
-            size: '18.6 MB',
+            path: '/hakedisler/20-nolu-hakedis.pdf',
+            size: '17.7 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/20_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/20%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '21 NOLU HAKEDİŞ.pdf',
@@ -435,12 +415,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/21_nolu_hakedis.pdf',
-            size: '19.1 MB',
+            path: '/hakedisler/21-nolu-hakedis.pdf',
+            size: '18.3 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/21_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/21%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
           FileEntry(
             name: '22 NOLU HAKEDİŞ - İŞ SONU.pdf',
@@ -449,12 +428,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/22_nolu_hakedis_is_sonu.pdf',
-            size: '18.6 MB',
+            path: '/hakedisler/22-nolu-hakedis-is-sonu.pdf',
+            size: '17.8 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/22_nolu_hakedis_is_sonu.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/22%20NOLU%20HAKED%C4%B0%C5%9E%20-%20%C4%B0%C5%9E%20SONU.pdf',
           ),
           FileEntry(
             name: '22EK-1 NOLU HAKEDİŞ.pdf',
@@ -463,12 +441,11 @@ class MockDataService {
             rolesWithViewAccess: ['admin', 'engineer', 'idari_personel', 'kontrol_mühendisi'],
             rolesWithEditAccess: ['admin', 'engineer'],
             rolesWithDownloadAccess: ['admin', 'engineer', 'kontrol_mühendisi'],
-            path: '/hakedisler/22ek1_nolu_hakedis.pdf',
-            size: '24.5 MB',
+            path: '/hakedisler/22ek-1-nolu-hakedis.pdf',
+            size: '23.4 MB',
             extension: 'pdf',
             url:
-                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI' +
-                '/hakedisler/22ek1_nolu_hakedis.pdf',
+                'http://desis.prokon.com.tr/Data/ERENSAN_OZPOLAT_GAZIANTEP_ILI_NURDAGI_ILCESI_BASPINAR_MAH_2.ETAP_479AD_KONUT_INSAATI/HAKED%C4%B0%C5%9ELER/22EK-1%20NOLU%20HAKED%C4%B0%C5%9E.pdf',
           ),
         ];
       case '/gorseller/cephe-renkleri':
