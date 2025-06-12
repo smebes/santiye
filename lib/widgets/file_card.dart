@@ -68,8 +68,8 @@ class FileCard extends StatelessWidget {
                       message: file.name,
                       child: Text(
                         file.name,
-                        style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w600, letterSpacing: 0.1),
-                        maxLines: 1,
+                        style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
+                        maxLines: 3,
                         overflow: TextOverflow.ellipsis,
                       ),
                     ),
