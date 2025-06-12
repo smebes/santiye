@@ -1,5 +1,7 @@
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
-import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
+
+import 'pdf_viewer_page_mobile.dart' if (dart.library.html) 'pdf_viewer_page_web.dart';
 
 class PdfViewerPage extends StatelessWidget {
   final String? url;
@@ -7,9 +9,6 @@ class PdfViewerPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('PDF Görüntüleyici')),
-      body: url == null ? const Center(child: Text('PDF bulunamadı')) : SfPdfViewer.network(url!),
-    );
+    return PlatformPdfViewer(url: url);
   }
 }
