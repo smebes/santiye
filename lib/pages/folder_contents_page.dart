@@ -200,7 +200,7 @@ class _FolderContentsPageState extends State<FolderContentsPage> {
                       padding: const EdgeInsets.all(16),
                       child: GridView.builder(
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: isMobile ? 2 : (isTablet ? 3 : 4),
+                          crossAxisCount: isMobile ? 2 : (isTablet ? 3 : 6),
                           childAspectRatio: 1.1,
                           crossAxisSpacing: 4,
                           mainAxisSpacing: 4,

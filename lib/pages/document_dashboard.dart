@@ -175,7 +175,7 @@ class DocumentDashboard extends StatelessWidget {
                           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                             crossAxisCount:
                                 isDesktop
-                                    ? 4
+                                    ? 6
                                     : isTablet
                                     ? 3
                                     : 2,
