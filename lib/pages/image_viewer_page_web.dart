@@ -14,20 +14,26 @@ class PlatformImageViewer extends StatelessWidget {
         body: const Center(child: Text('Görsel bulunamadı')),
       );
     }
-    final viewID = 'iframe_${url.hashCode}';
+    final iframeUrl = 'assets/html/image_viewer.html?url=${Uri.encodeComponent(url!)}';
+    final viewID = 'iframe_${iframeUrl.hashCode}';
     // ignore: undefined_prefixed_name
     ui.platformViewRegistry.registerViewFactory(
       viewID,
       (int viewId) =>
           html.IFrameElement()
-            ..src = url!
+            ..src = iframeUrl
             ..style.border = 'none'
             ..width = '100%'
             ..height = '100%',
     );
     return Scaffold(
       appBar: AppBar(title: const Text('Görsel Görüntüleyici')),
-      body: Center(child: SizedBox(width: 600, height: 400, child: HtmlElementView(viewType: viewID))),
+      body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        color: Colors.grey[50],
+        child: HtmlElementView(viewType: viewID),
+      ),
     );
   }
 }
