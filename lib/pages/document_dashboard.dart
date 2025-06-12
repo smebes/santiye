@@ -175,18 +175,18 @@ class DocumentDashboard extends StatelessWidget {
                           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                             crossAxisCount:
                                 isDesktop
-                                    ? 6
+                                    ? 5
                                     : isTablet
                                     ? 3
                                     : 2,
                             childAspectRatio:
                                 isDesktop
-                                    ? 0.9
+                                    ? 1
                                     : isTablet
                                     ? 0.8
                                     : 0.7,
-                            crossAxisSpacing: isDesktop ? 20 : 16,
-                            mainAxisSpacing: isDesktop ? 20 : 16,
+                            crossAxisSpacing: isDesktop ? 12 : 8,
+                            mainAxisSpacing: isDesktop ? 12 : 8,
                           ),
                           itemCount: filteredFolders.length,
                           itemBuilder: (context, index) {

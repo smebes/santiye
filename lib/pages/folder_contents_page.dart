@@ -200,7 +200,7 @@ class _FolderContentsPageState extends State<FolderContentsPage> {
                       padding: const EdgeInsets.all(16),
                       child: GridView.builder(
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: isMobile ? 2 : (isTablet ? 3 : 6),
+                          crossAxisCount: isMobile ? 2 : (isTablet ? 3 : 5),
                           childAspectRatio: 1.1,
                           crossAxisSpacing: 4,
                           mainAxisSpacing: 4,
@@ -322,6 +322,12 @@ class _FolderContentsPageState extends State<FolderContentsPage> {
       Navigator.of(context).push(MaterialPageRoute(builder: (context) => PdfViewerPage(url: file.url)));
     } else if (file.extension == 'jpg' || file.extension == 'jpeg' || file.extension == 'png') {
       Navigator.of(context).push(MaterialPageRoute(builder: (context) => ImageViewerPage(url: file.url)));
+    } else if (file.extension == 'doc' ||
+        file.extension == 'docx' ||
+        file.extension == 'xls' ||
+        file.extension == 'xlsx') {
+      final viewerUrl = 'https://docs.google.com/gview?url=${Uri.encodeComponent(file.url ?? '')}&embedded=true';
+      Navigator.of(context).push(MaterialPageRoute(builder: (context) => PdfViewerPage(url: viewerUrl)));
     } else {
       ScaffoldMessenger.of(
         context,
