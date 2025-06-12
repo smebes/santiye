@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:ui' as ui;
 import 'dart:html' as html;
+import 'package:flutter/foundation.dart' show kIsWeb;
 
 class PlatformPdfViewer extends StatelessWidget {
   final String? url;
@@ -14,7 +15,16 @@ class PlatformPdfViewer extends StatelessWidget {
         body: const Center(child: Text('PDF bulunamadı')),
       );
     }
+
+    if (!kIsWeb) {
+      return Scaffold(
+        appBar: AppBar(title: const Text('PDF Görüntüleyici')),
+        body: const Center(child: Text('PDF görüntüleme sadece web platformunda desteklenir')),
+      );
+    }
+
     final viewID = 'pdf_iframe_${url.hashCode}';
+
     // ignore: undefined_prefixed_name
     ui.platformViewRegistry.registerViewFactory(
       viewID,
@@ -25,6 +35,7 @@ class PlatformPdfViewer extends StatelessWidget {
             ..width = '100%'
             ..height = '100%',
     );
+
     return Scaffold(
       appBar: AppBar(title: const Text('PDF Görüntüleyici')),
       body: Container(

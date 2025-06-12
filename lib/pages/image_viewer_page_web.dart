@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:ui' as ui;
 import 'dart:html' as html;
+import 'package:flutter/foundation.dart' show kIsWeb;
 
 class PlatformImageViewer extends StatelessWidget {
   final String? url;
@@ -14,8 +15,17 @@ class PlatformImageViewer extends StatelessWidget {
         body: const Center(child: Text('Görsel bulunamadı')),
       );
     }
+
+    if (!kIsWeb) {
+      return Scaffold(
+        appBar: AppBar(title: const Text('Görsel Görüntüleyici')),
+        body: const Center(child: Text('Görsel görüntüleme sadece web platformunda desteklenir')),
+      );
+    }
+
     final iframeUrl = 'assets/html/image_viewer.html?url=${Uri.encodeComponent(url!)}';
     final viewID = 'iframe_${iframeUrl.hashCode}';
+
     // ignore: undefined_prefixed_name
     ui.platformViewRegistry.registerViewFactory(
       viewID,
@@ -26,6 +36,7 @@ class PlatformImageViewer extends StatelessWidget {
             ..width = '100%'
             ..height = '100%',
     );
+
     return Scaffold(
       appBar: AppBar(title: const Text('Görsel Görüntüleyici')),
       body: Container(
