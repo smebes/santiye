@@ -10,6 +10,7 @@ import '../pages/pdf_viewer_page.dart';
 import '../pages/image_viewer_page.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import '../utils/platform_utils.dart';
+import 'dart:html' as html;
 
 class FolderContentsPage extends StatefulWidget {
   final String folderPath;
@@ -235,7 +236,13 @@ class _FolderContentsPageState extends State<FolderContentsPage> {
                                 userRole: currentRole,
                                 onView: () {
                                   if (Permissions.canView(file, currentRole)) {
-                                    _viewFile(file);
+                                    if (file.extension == 'jpg' ||
+                                        file.extension == 'jpeg' ||
+                                        file.extension == 'png') {
+                                      html.window.open(file.url ?? '', '_blank');
+                                    } else {
+                                      _viewFile(file);
+                                    }
                                   }
                                 },
                                 onDownload: () {
