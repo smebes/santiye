@@ -37,6 +37,9 @@ COPY . .
 RUN useradd -m -s /bin/bash flutter
 RUN chown -R flutter:flutter /app
 
+# Fix Flutter repository ownership for builder stage
+RUN git config --global --add safe.directory $FLUTTER_HOME
+
 # Switch to non-root user
 USER flutter
 
