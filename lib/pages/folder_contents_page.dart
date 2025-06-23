@@ -8,8 +8,8 @@ import '../widgets/folder_card.dart';
 import 'package:provider/provider.dart';
 import '../pages/pdf_viewer_page.dart';
 import '../pages/image_viewer_page.dart';
-import 'dart:html' as html;
 import 'package:flutter/foundation.dart' show kIsWeb;
+import '../utils/platform_utils.dart';
 
 class FolderContentsPage extends StatefulWidget {
   final String folderPath;
@@ -336,17 +336,11 @@ class _FolderContentsPageState extends State<FolderContentsPage> {
     }
   }
 
-  void _downloadFile(FileEntry file) {
-    if (kIsWeb && file.url != null) {
-      final anchor =
-          html.AnchorElement(href: file.url)
-            ..setAttribute('download', file.name)
-            ..click();
-    } else {
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text('${file.name} indiriliyor...'), backgroundColor: Colors.green));
-    }
+  void _downloadFile(FileEntry file) async {
+    await PlatformUtils.downloadFile(file.url, file.name ?? 'file');
+    ScaffoldMessenger.of(
+      context,
+    ).showSnackBar(SnackBar(content: Text('${file.name} işleniyor...'), backgroundColor: Colors.green));
   }
 
   void _editFile(FileEntry file) {
