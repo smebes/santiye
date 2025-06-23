@@ -30,6 +30,13 @@ FROM base AS builder
 WORKDIR /app
 COPY . .
 
+# Create non-root user
+RUN useradd -m -s /bin/bash flutter
+RUN chown -R flutter:flutter /app
+
+# Switch to non-root user
+USER flutter
+
 # Get dependencies
 RUN flutter pub get
 
@@ -38,8 +45,7 @@ RUN flutter build web \
     --release \
     --web-renderer canvaskit \
     --dart-define=FLUTTER_WEB_USE_SKIA=true \
-    --tree-shake-icons \
-    --no-sound-null-safety
+    --tree-shake-icons
 
 # Production stage
 FROM nginx:alpine AS production
