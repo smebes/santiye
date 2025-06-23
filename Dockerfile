@@ -20,6 +20,9 @@ RUN git clone https://github.com/flutter/flutter.git $FLUTTER_HOME
 WORKDIR $FLUTTER_HOME
 RUN git fetch && git checkout $FLUTTER_VERSION
 
+# Fix Flutter repository ownership
+RUN git config --global --add safe.directory $FLUTTER_HOME
+
 # Pre-download Flutter artifacts
 RUN flutter doctor
 RUN flutter config --no-analytics
