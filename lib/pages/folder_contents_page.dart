@@ -134,128 +134,125 @@ class _FolderContentsPageState extends State<FolderContentsPage> {
             child: SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
-                children:
-                    _getBreadcrumbs().asMap().entries.map((entry) {
-                      int index = entry.key;
-                      String breadcrumb = entry.value;
-                      bool isLast = index == _getBreadcrumbs().length - 1;
+                children: _getBreadcrumbs().asMap().entries.map((entry) {
+                  int index = entry.key;
+                  String breadcrumb = entry.value;
+                  bool isLast = index == _getBreadcrumbs().length - 1;
 
-                      return Row(
-                        children: [
-                          if (index > 0)
-                            Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 8),
-                              child: Icon(Icons.chevron_right, color: Colors.grey[600], size: 20),
-                            ),
-                          GestureDetector(
-                            onTap: () => _navigateToBreadcrumb(index),
-                            child: Container(
-                              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                              decoration: BoxDecoration(
-                                color: isLast ? Colors.blue[100] : Colors.transparent,
-                                borderRadius: BorderRadius.circular(16),
-                                border: isLast ? Border.all(color: Colors.blue[300]!) : null,
-                              ),
-                              child: Text(
-                                breadcrumb,
-                                style: TextStyle(
-                                  color: isLast ? Colors.blue[800] : Colors.grey[700],
-                                  fontWeight: isLast ? FontWeight.bold : FontWeight.normal,
-                                  fontSize: 14,
-                                ),
-                              ),
+                  return Row(
+                    children: [
+                      if (index > 0)
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8),
+                          child: Icon(Icons.chevron_right, color: Colors.grey[600], size: 20),
+                        ),
+                      GestureDetector(
+                        onTap: () => _navigateToBreadcrumb(index),
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                          decoration: BoxDecoration(
+                            color: isLast ? Colors.blue[100] : Colors.transparent,
+                            borderRadius: BorderRadius.circular(16),
+                            border: isLast ? Border.all(color: Colors.blue[300]!) : null,
+                          ),
+                          child: Text(
+                            breadcrumb,
+                            style: TextStyle(
+                              color: isLast ? Colors.blue[800] : Colors.grey[700],
+                              fontWeight: isLast ? FontWeight.bold : FontWeight.normal,
+                              fontSize: 14,
                             ),
                           ),
-                        ],
-                      );
-                    }).toList(),
+                        ),
+                      ),
+                    ],
+                  );
+                }).toList(),
               ),
             ),
           ),
 
           // Content
           Expanded(
-            child:
-                _isLoading
-                    ? const Center(
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          CircularProgressIndicator(),
-                          SizedBox(height: 16),
-                          Text('Klasör içeriği yükleniyor...'),
-                        ],
-                      ),
-                    )
-                    : _files.isEmpty
-                    ? const Center(
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(Icons.folder_open, size: 64, color: Colors.grey),
-                          SizedBox(height: 16),
-                          Text('Bu klasör boş', style: TextStyle(fontSize: 18, color: Colors.grey)),
-                        ],
-                      ),
-                    )
-                    : Padding(
-                      padding: const EdgeInsets.all(16),
-                      child: GridView.builder(
-                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: isMobile ? 2 : (isTablet ? 3 : 5),
-                          childAspectRatio: 1.1,
-                          crossAxisSpacing: 4,
-                          mainAxisSpacing: 4,
-                        ),
-                        itemCount: _files.length,
-                        itemBuilder: (context, index) {
-                          final file = _files[index];
-
-                          // Yetki kontrolü
-                          if (!Permissions.canView(file, currentRole)) {
-                            return const SizedBox.shrink();
-                          }
-
-                          if (file.isDirectory) {
-                            return FolderCard(
-                              folder: file,
-                              userRole: currentRole ?? 'guest',
-                              onTap: () {
-                                Navigator.of(context).push(
-                                  MaterialPageRoute(
-                                    builder:
-                                        (context) => FolderContentsPage(
-                                          folderPath: file.path ?? '',
-                                          folderName: file.name ?? 'Klasör',
-                                        ),
-                                  ),
-                                );
-                              },
-                            );
-                          } else {
-                            return FileCard(
-                              file: file,
-                              userRole: currentRole,
-                              onView: () {
-                                if (Permissions.canView(file, currentRole)) {
-                                  _viewFile(file);
-                                }
-                              },
-                              onDownload: () {
-                                if (Permissions.canDownload(file, currentRole)) {
-                                  _downloadFile(file);
-                                }
-                              },
-                              onEdit: () {
-                                if (Permissions.canEdit(file, currentRole)) {
-                                  _editFile(file);
-                                }
-                              },
-                            );
-                          }
-                        },
-                      ),
+            child: _isLoading
+                ? const Center(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        CircularProgressIndicator(),
+                        SizedBox(height: 16),
+                        Text('Klasör içeriği yükleniyor...'),
+                      ],
                     ),
+                  )
+                : _files.isEmpty
+                    ? const Center(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(Icons.folder_open, size: 64, color: Colors.grey),
+                            SizedBox(height: 16),
+                            Text('Bu klasör boş', style: TextStyle(fontSize: 18, color: Colors.grey)),
+                          ],
+                        ),
+                      )
+                    : Padding(
+                        padding: const EdgeInsets.all(16),
+                        child: GridView.builder(
+                          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                            crossAxisCount: isMobile ? 2 : (isTablet ? 3 : 5),
+                            childAspectRatio: 1.1,
+                            crossAxisSpacing: 4,
+                            mainAxisSpacing: 4,
+                          ),
+                          itemCount: _files.length,
+                          itemBuilder: (context, index) {
+                            final file = _files[index];
+
+                            // Yetki kontrolü
+                            if (!Permissions.canView(file, currentRole)) {
+                              return const SizedBox.shrink();
+                            }
+
+                            if (file.isDirectory) {
+                              return FolderCard(
+                                folder: file,
+                                userRole: currentRole ?? 'guest',
+                                onTap: () {
+                                  Navigator.of(context).push(
+                                    MaterialPageRoute(
+                                      builder: (context) => FolderContentsPage(
+                                        folderPath: file.path ?? '',
+                                        folderName: file.name ?? 'Klasör',
+                                      ),
+                                    ),
+                                  );
+                                },
+                              );
+                            } else {
+                              return FileCard(
+                                file: file,
+                                userRole: currentRole,
+                                onView: () {
+                                  if (Permissions.canView(file, currentRole)) {
+                                    _viewFile(file);
+                                  }
+                                },
+                                onDownload: () {
+                                  if (Permissions.canDownload(file, currentRole)) {
+                                    _downloadFile(file);
+                                  }
+                                },
+                                onEdit: () {
+                                  if (Permissions.canEdit(file, currentRole)) {
+                                    _editFile(file);
+                                  }
+                                },
+                              );
+                            }
+                          },
+                        ),
+                      ),
           ),
         ],
       ),
@@ -268,54 +265,53 @@ class _FolderContentsPageState extends State<FolderContentsPage> {
 
     showModalBottomSheet(
       context: context,
-      builder:
-          (context) => Container(
-            padding: const EdgeInsets.all(16),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Text(
-                  file.name,
-                  style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                  textAlign: TextAlign.center,
-                ),
-                const SizedBox(height: 16),
-                if (Permissions.canView(file, currentRole))
-                  ListTile(
-                    leading: const Icon(Icons.visibility),
-                    title: const Text('Görüntüle'),
-                    onTap: () {
-                      Navigator.pop(context);
-                      _viewFile(file);
-                    },
-                  ),
-                if (Permissions.canDownload(file, currentRole))
-                  ListTile(
-                    leading: const Icon(Icons.download),
-                    title: const Text('İndir'),
-                    onTap: () {
-                      Navigator.pop(context);
-                      _downloadFile(file);
-                    },
-                  ),
-                if (Permissions.canEdit(file, currentRole))
-                  ListTile(
-                    leading: const Icon(Icons.edit),
-                    title: const Text('Düzenle'),
-                    onTap: () {
-                      Navigator.pop(context);
-                      _editFile(file);
-                    },
-                  ),
-                const SizedBox(height: 8),
-                Text(
-                  'Boyut: ${file.size} • Son değişiklik: ${_formatDate(file.modifiedDate)}',
-                  style: TextStyle(color: Colors.grey[600], fontSize: 12),
-                  textAlign: TextAlign.center,
-                ),
-              ],
+      builder: (context) => Container(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              file.name,
+              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.center,
             ),
-          ),
+            const SizedBox(height: 16),
+            if (Permissions.canView(file, currentRole))
+              ListTile(
+                leading: const Icon(Icons.visibility),
+                title: const Text('Görüntüle'),
+                onTap: () {
+                  Navigator.pop(context);
+                  _viewFile(file);
+                },
+              ),
+            if (Permissions.canDownload(file, currentRole))
+              ListTile(
+                leading: const Icon(Icons.download),
+                title: const Text('İndir'),
+                onTap: () {
+                  Navigator.pop(context);
+                  _downloadFile(file);
+                },
+              ),
+            if (Permissions.canEdit(file, currentRole))
+              ListTile(
+                leading: const Icon(Icons.edit),
+                title: const Text('Düzenle'),
+                onTap: () {
+                  Navigator.pop(context);
+                  _editFile(file);
+                },
+              ),
+            const SizedBox(height: 8),
+            Text(
+              'Boyut: ${file.size} • Son değişiklik: ${_formatDate(file.modifiedDate)}',
+              style: TextStyle(color: Colors.grey[600], fontSize: 12),
+              textAlign: TextAlign.center,
+            ),
+          ],
+        ),
+      ),
     );
   }
 
