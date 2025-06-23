@@ -31,57 +31,18 @@ class PlatformImageViewer extends StatelessWidget {
       );
     }
 
-    // Basit HTML viewer oluştur
-    final viewID = 'image_viewer_${url.hashCode}';
+    final viewID = 'iframe_${url.hashCode}';
 
     // ignore: undefined_prefixed_name
     ui.platformViewRegistry.registerViewFactory(
       viewID,
       (int viewId) {
-        final div = html.DivElement()
-          ..style.width = '100%'
-          ..style.height = '100%'
-          ..style.display = 'flex'
-          ..style.justifyContent = 'center'
-          ..style.alignItems = 'center'
-          ..style.backgroundColor = '#f5f5f5';
-
-        final img = html.ImageElement()
+        final iframe = html.IFrameElement()
           ..src = url!
-          ..style.maxWidth = '100%'
-          ..style.maxHeight = '100%'
-          ..style.objectFit = 'contain'
-          ..style.borderRadius = '8px'
-          ..style.boxShadow = '0 4px 8px rgba(0,0,0,0.1)';
-
-        // Hata durumunda
-        img.onError.listen((event) {
-          final errorDiv = html.DivElement()
-            ..style.textAlign = 'center'
-            ..style.color = '#666'
-            ..style.fontFamily = 'Arial, sans-serif';
-
-          errorDiv.children.add(html.HeadingElement.h3()..text = 'Görsel yüklenemedi');
-          errorDiv.children.add(html.ParagraphElement()..text = 'URL: $url');
-
-          final backButton = html.ButtonElement()
-            ..text = 'Geri Dön'
-            ..style.padding = '10px 20px'
-            ..style.background = '#007bff'
-            ..style.color = 'white'
-            ..style.border = 'none'
-            ..style.borderRadius = '5px'
-            ..style.cursor = 'pointer';
-
-          backButton.onClick.listen((event) => html.window.history.back());
-          errorDiv.children.add(backButton);
-
-          div.children.clear();
-          div.children.add(errorDiv);
-        });
-
-        div.children.add(img);
-        return div;
+          ..style.border = 'none'
+          ..width = '100%'
+          ..height = '100%';
+        return iframe;
       },
     );
 
