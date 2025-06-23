@@ -36,6 +36,34 @@ class AppState extends ChangeNotifier {
     notifyListeners();
   }
 
+  void setUserRole(String role) {
+    if (_currentUser != null) {
+      _currentUser = User(
+        id: _currentUser!.id,
+        name: _currentUser!.name,
+        role: role,
+        lastLogin: _currentUser!.lastLogin,
+      );
+    } else {
+      _currentUser = User(id: '1', name: 'Kullanıcı', role: role, lastLogin: DateTime.now());
+    }
+    notifyListeners();
+  }
+
+  void setUsername(String username) {
+    if (_currentUser != null) {
+      _currentUser = User(
+        id: _currentUser!.id,
+        name: username,
+        role: _currentUser!.role,
+        lastLogin: _currentUser!.lastLogin,
+      );
+    } else {
+      _currentUser = User(id: '1', name: username, role: 'guest', lastLogin: DateTime.now());
+    }
+    notifyListeners();
+  }
+
   void logout() {
     _currentUser = null;
     _currentFolderContents = [];
