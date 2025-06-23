@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="$FLUTTER_BASE_HREF">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -84,6 +84,13 @@
   </div>
 
   <script>
+    // Fix base URL for remote access
+    var baseUrl = window.location.origin;
+    var script = document.createElement('script');
+    script.src = baseUrl + '/flutter_bootstrap.js';
+    script.async = true;
+    document.head.appendChild(script);
+    
     // Hide loading screen when Flutter is ready
     window.addEventListener('load', function() {
       var loading = document.getElementById('loading');
@@ -94,7 +101,5 @@
       }
     });
   </script>
-  
-  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
